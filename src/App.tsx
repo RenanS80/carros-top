@@ -1,15 +1,13 @@
 import './App.css';
 
 import Navbar from 'components/Navbar';
-import ButtonSearch from 'components/ButtonSearch';
-import CarCard from 'components/CarCard';
+import Catalog from 'pages/Catalog';
 
 function App() {
   return (
     <>
       <Navbar />
-      <ButtonSearch />
-      <CarCard />
+      <Catalog />
     </>
 
   );
