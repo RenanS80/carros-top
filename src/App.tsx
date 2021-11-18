@@ -1,11 +1,11 @@
-import Navbar from 'components/Navbar';
 import './App.css';
+
+import Home from 'pages/Home';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <h1>Hello World</h1>
+      <Home />
     </>
 
   );
