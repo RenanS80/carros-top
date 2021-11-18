@@ -1,0 +1,78 @@
+.main-nav {
+    min-height: 70px;
+    background-color: var(--primary);
+}
+
+.main-nav h4 {
+    font-size: 24px;
+    color: var(--secondary);
+}
+
+/* Change hamburguer menu color */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 40, 95, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+.main-menu {
+    font-size: 18px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu a {
+    color: var(--secondary);
+    transition: all .2s ease;
+}
+
+.main-menu a:hover {
+    opacity: 0.9;
+}
+
+.active {
+    font-weight: 700;
+}
+
+
+/* --- MEDIA QUERIES --- */
+
+/* Small devices */
+@media (min-width: 576px) {
+    .main-nav h4 {
+        margin-left: 80px;
+    }
+    
+    #dscatalog-navbar {
+        margin: 0px 80px;
+    }
+}
+/* Medium devices */
+@media (min-width: 768px) {
+    #dscatalog-navbar {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    #dscatalog-navbar {
+        padding-right: 100px;
+    }
+
+    .main-nav h4 {
+        margin-left: 20px;
+    }
+}
+
+/* Extra Large devices */
+@media (min-width: 1200px) {
+    #dscatalog-navbar {
+        padding-right: 200px;
+    }
+}
