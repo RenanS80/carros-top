@@ -1,11 +1,13 @@
 import './App.css';
 
-import Home from 'pages/Home';
+import Navbar from 'components/Navbar';
+import ButtonSearch from 'components/ButtonSearch';
 
 function App() {
   return (
     <>
-      <Home />
+      <Navbar />
+      <ButtonSearch />
     </>
 
   );
