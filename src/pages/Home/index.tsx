@@ -1,13 +1,11 @@
 import './styles.css';
 
 import CarImg from 'assets/images/car-header.png';
-import Navbar from 'components/Navbar';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <>
-            <Navbar />
-
             <main className="card-container">
                 <div className="card-image">
                     <img src={CarImg} alt="Carro" />
@@ -22,9 +20,9 @@ function Home() {
 
             <section className="card-catalog-container">
                 <div className="card-catalog-button">
-                    <a href="/catalog">
+                    <Link to="/catalog">
                         <button type="button" className="btn btn-catalog">Ver catálogo</button>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card-catalog-text">
                     <p>Comece agora a navegar</p>
