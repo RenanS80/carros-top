@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center">Carros Top</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📃 Sobre
+Esta aplicação exibe um catálogo de carros e faz parte da primeira entrega do módulo React - Bootcamp DevSuperior.<br>
+Ela segue os breakpoints de responsividade da seguinte prototipação:
+<a href="https://www.figma.com/file/H1SC2bo3Zaycm3mJxkkMC4/bds-desafio-layout?node-id=0%3A1" target="_blank">Figma</a>
 
-## Available Scripts
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 💻 Frameworks e tecnologias utilizadas
+<ul>
+    <li>React + React Router DOM</li>
+    <li>Typescript</li>
+    <li>Bootstrap + Mobile First</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎬 Interface web
+<strong>Home</strong>
+<img src="https://ik.imagekit.io/zqxyh6u3ylz/carros-top/01_eN1r5cAsH.jpg?updatedAt=1637280772016">
 
-### `yarn test`
+<strong>Catalog</strong>
+<img src="https://ik.imagekit.io/zqxyh6u3ylz/carros-top/02_fez5kW6yB9u.jpg?updatedAt=1637280772280">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<strong>Catalog Mobile</strong>
+<img src="https://ik.imagekit.io/zqxyh6u3ylz/carros-top/03_wIHMq9mJg.jpg?updatedAt=1637280772238">
 
-### `yarn build`
+<strong>Catalog Medium Devices</strong>
+<img src="https://ik.imagekit.io/zqxyh6u3ylz/carros-top/04_dAOwmRwWC.jpg?updatedAt=1637280772333">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Como baixar o repositório
+```bash
+# Clonar o repositório
+git clone https://github.com/RenanS80/carros-top
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acessar a pasta carros-top
+cd carros-top
+```
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ✅ Como executar a aplicação
+```bash
+# Instalar as dependências
+yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Executar a aplicação
+yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acessar http://localhost:3000 no seu navegador.
+```
